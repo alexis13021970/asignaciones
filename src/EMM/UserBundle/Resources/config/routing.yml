@@ -1,0 +1,13 @@
+user_homepage:
+    path:     /
+    defaults: { _controller: UserBundle:Default:index }
+
+user_index:
+    path:     /user/index
+    defaults: { _controller: UserBundle:User:index }
+
+user_view:
+    path:     /user/view/{nombre}
+    defaults: { _controller: UserBundle:User:view }
+
+

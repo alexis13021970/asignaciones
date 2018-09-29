@@ -5,7 +5,10 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "AppBundle\\": "src/AppBundle",
+            "EMM\\UserBundle\\": "src/EMM/UserBundle"
+
+
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },

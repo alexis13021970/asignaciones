@@ -1,0 +1,17 @@
+diff a/app/AppKernel.php b/app/AppKernel.php	(rejected hunks)
+@@ -10,13 +10,13 @@
+         $bundles = array(
+             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
+             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
++
+             new Symfony\Bundle\TwigBundle\TwigBundle(),
+             new Symfony\Bundle\MonologBundle\MonologBundle(),
+             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
+             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+-            new AppBundle\UserBundle\AppBundleUserBundle(),
+-        );
++         );
+ 
+         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
+             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
